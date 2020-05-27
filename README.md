@@ -1,6 +1,9 @@
-# prograint
-Proyecto Final de Programación para Internet
-
+# Nombre del proyecto
+	Sistema Administrativo del Complejo Deportivo Universitario
+# Descripcion del Proyecto
+	El objetivo de este proyecto es administrar los recursos del complejo deportivo que se encuentra en el parque tecnologico al lado del CUCEI llevando las altas y bajas de los usuarios y asignando horarios a las disciplinas y cursos.
+# Integrantes
+	Paris Flores
 # Instrucciones de instalación
 -En la terminal donde se encuentra el proyecto ingresar los siguientes comandos:
 
