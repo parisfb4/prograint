@@ -1,0 +1,113 @@
+Usuarios CDU
+	* id
+	* usuario
+	* correo
+	* telefono
+	* estatus
+
+Areas 
+	* id
+	* nombre
+
+Disciplinas
+	* id
+	* nombre
+	* id_area
+
+______________________
+Atenea
+
+
+Niveles 
+	* id
+	* nombre
+	* id_disciplina
+
+Cursos
+	* id
+	* nombre
+	* id_disciplina
+	* id_nivel
+	* fecha_inicio
+	* fecha_fin
+	* costo
+
+Horarios
+	* id
+	* id_curso
+	* id_instructor
+	* lunes
+	* martes
+	* miercoles
+	* jueves
+	* viernes
+	* sabado
+	* cupo
+
+_________________________
+Zeus
+
+
+Instructores
+	* id
+	* nombre
+	* correo
+	* telefono
+
+
+Conceptos
+	* id
+	* concepto
+	* referencia
+	* convenio
+	* importe
+	* clabe
+
+Pagos
+	* id
+	* id_usuario
+	* created_at
+	* updated_at
+	* referencia
+
+___________________________
+Paris
+
+Condonaciones
+	* id
+	* id_usuario
+	* updated_at
+	* created_at
+	* observaciones
+
+Becas
+	* id
+	* id_usuario
+	* updated_at
+	* created_at
+	* observaciones
+
+
+
+Users 
+	* id
+	* name
+	* email
+	* email_verified_at
+	* password
+	* remember_token
+	* created_at
+	* updated_at
+
+Roles
+	* id
+	* rol
+
+Rol_usuarios
+	* id
+	* id_user
+	* id_rol
+	* created_at
+	* updated_at
+
+
